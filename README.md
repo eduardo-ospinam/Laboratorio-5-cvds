@@ -13,6 +13,10 @@
 
 
 ![](https://i.postimg.cc/8z9YfJH9/indexlab51.jpg)
+
+
 3. solicite al servidor el recurso ‘sssss/abc.html’, usando la versión 1.0 de HTTP.
+
+
 ![](https://i.postimg.cc/SK9v6S1s/lab52.jpg)
 #### se da este resultado ya que se esta movimiendo todo por https y no se da el error deseado
