@@ -76,6 +76,7 @@
 	   ![](https://i.postimg.cc/d3kL9vbB/lab510.jpg)
 
 	#### ¿Cuáles son las diferencias con los diferentes parámetros?:
+
 	1. -v
 
 ![](https://i.postimg.cc/vm0Lmr56/lab512.jpg)
