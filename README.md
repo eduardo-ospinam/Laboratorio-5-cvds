@@ -47,8 +47,25 @@
 #### ¿Qué se obtiene como resultado?: se obtiene un 200 ok lo que significa que la solucitud a sido exitosa, regresando el recurso solicitado de manera exitosa.
 
 
+5.  Seleccione el contenido HTML de la respuesta y copielo al cortapapeles CTRL-SHIFT-C. Ejecute el comando wc (word count) para contar palabras con la opción -c para contar el número de caracteres:
+
+![](https://i.postimg.cc/Y23nc7m9/lab55.jpg)
+
+#### ¿Cuál es la diferencia entre los verbos GET y POST?: el metodo GET añade los datos a la URI definida en el atributo de accion del formulario, mientras que POST los adjunta al organismo solicitado.
+#### ¿Qué otros tipos de peticiones existen?: 
+	1. Get
+	2. Options
+	3. Head
+	4. Put
+	5. Post
+	6. Delete
+	7. Connect
+	8. Trace
+
+6. 
 
 
 ## Bibliografia: 
 - https://developer.mozilla.org/es/docs/Web/HTTP/Status
 - https://datatracker.ietf.org/doc/html/rfc2616#page-70
+- https://pc-solucion.es/2018/06/06/diferencias-entre-el-metodo-get-y-post/
