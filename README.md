@@ -87,6 +87,13 @@
 ![](https://i.postimg.cc/hjh8QX0Z/indexlab511.jpg)
 ##### solo muestra la informacion completa del estado de la peticion en este caso 200
 
+## PARTE 2:
+
+1. cree un proyecto maven nuevo usando el arquetipo de aplicación Web estándar maven-archetype-webapp y realice lo siguiente:
+
+![](https://i.postimg.cc/jdrmvSfk/lab513.jpg)
+![](https://i.postimg.cc/bwyMcV3x/lab514.jpg)
+
 
 ## Bibliografia: 
 - https://developer.mozilla.org/es/docs/Web/HTTP/Status
