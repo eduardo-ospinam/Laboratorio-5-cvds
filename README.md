@@ -119,7 +119,16 @@
 ![](https://i.postimg.cc/13k2f0SX/lab520.jpg)
 
 
+7. En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
+
+![](https://i.postimg.cc/mgjVGQrK/lab521.jpg)
+![](https://i.postimg.cc/zff7DVbv/lab522.jpg)
+![](https://i.postimg.cc/hG3rXcTr/lab523.jpg)
+![](https://i.postimg.cc/B6LCDkCG/lab524.jpg)
+
+
 ## Bibliografia: 
 - https://developer.mozilla.org/es/docs/Web/HTTP/Status
 - https://datatracker.ietf.org/doc/html/rfc2616#page-70
 - https://pc-solucion.es/2018/06/06/diferencias-entre-el-metodo-get-y-post/
+
