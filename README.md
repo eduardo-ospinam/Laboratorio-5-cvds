@@ -126,6 +126,10 @@
 ![](https://i.postimg.cc/hG3rXcTr/lab523.jpg)
 ![](https://i.postimg.cc/B6LCDkCG/lab524.jpg)
 
+8. Basado en la respuesta que le da el servicio del punto anterior, cree la clase edu.eci.cvds.servlet.model:
+
+![](https://i.postimg.cc/J4xDKK0D/lab525.jpg)
+
 
 ## Bibliografia: 
 - https://developer.mozilla.org/es/docs/Web/HTTP/Status
