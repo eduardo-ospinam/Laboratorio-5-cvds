@@ -139,6 +139,25 @@
 ![](https://i.postimg.cc/cLMYTMKK/lab530.jpg)
 
 
+## Parte 3: 
+
+![](https://i.postimg.cc/hjtcNxSP/lab531.jpg)
+![](https://i.postimg.cc/14htxtCC/lab532.jpg)
+
+#### POST: este metodo mantiene oculto lo sdatos que se envian par ael cliente:
+
+![](https://i.postimg.cc/cLGZ0Psz/lab533.jpg)
+![](https://i.postimg.cc/2jq7fK9h/lab534.jpg)
+![](https://i.postimg.cc/wj5zvFMj/lab535.jpg)
+
+#### GET: este metodo permite que lo sdatos que se envian sean publicos para el usuario:
+
+![](https://i.postimg.cc/0N6LSf2S/lab536.jpg)
+![](https://i.postimg.cc/d39XFNnb/lab537.jpg)
+
+
+
+
 ## Bibliografia: 
 - https://developer.mozilla.org/es/docs/Web/HTTP/Status
 - https://datatracker.ietf.org/doc/html/rfc2616#page-70
