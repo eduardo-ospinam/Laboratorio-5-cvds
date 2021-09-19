@@ -130,6 +130,14 @@
 
 ![](https://i.postimg.cc/J4xDKK0D/lab525.jpg)
 
+9. finalizacion parte 2:
+
+![](https://i.postimg.cc/D0JLc9sF/lab526.jpg)
+![](https://i.postimg.cc/kG08YTFS/lab527.jpg)
+![](https://i.postimg.cc/PrD1vkTQ/lab528.jpg)
+![](https://i.postimg.cc/mgGCQ6rf/lab529.jpg)
+![](https://i.postimg.cc/cLMYTMKK/lab530.jpg)
+
 
 ## Bibliografia: 
 - https://developer.mozilla.org/es/docs/Web/HTTP/Status
