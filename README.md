@@ -94,6 +94,20 @@
 ![](https://i.postimg.cc/jdrmvSfk/lab513.jpg)
 ![](https://i.postimg.cc/bwyMcV3x/lab514.jpg)
 
+2. para qué puerto TCP/IP está configurado el servidor embebido de Tomcat: 8080
+
+![](https://i.postimg.cc/GmMbZyJp/lab515.jpg)
+
+3. Compile y ejecute la aplicación en el servidor embebido Tomcat, a través de Maven con:mvn package, mvn tomcat7:run
+
+![](https://i.postimg.cc/XNhd0rLQ/lab515-5.jpg)
+![](https://i.postimg.cc/rw24K7v4/lab516.jpg)
+![](https://i.postimg.cc/qBLnzmpD/lab517.jpg)
+
+
+4. 
+
+
 
 ## Bibliografia: 
 - https://developer.mozilla.org/es/docs/Web/HTTP/Status
