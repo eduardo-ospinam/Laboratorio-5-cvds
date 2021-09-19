@@ -71,17 +71,17 @@
 	   ![](https://i.postimg.cc/26HZw0Vz/lab57.jpg)
 	   ![](https://i.postimg.cc/pr4nNyf4/lab58.jpg)
 
-	3. https://i.postimg.cc/pr4nNyf4/lab58.jpg
+	3. curl -i www.httpbin.org
 	   ![](https://i.postimg.cc/0QHzmrBj/lab59.jpg)
 	   ![](https://i.postimg.cc/d3kL9vbB/lab510.jpg)
 
 	#### ¿Cuáles son las diferencias con los diferentes parámetros?:
 		1. -v
-		   ![](https://i.postimg.cc/vm0Lmr56/lab512.jpg)
+		![](https://i.postimg.cc/vm0Lmr56/lab512.jpg)
 		##### muestra una informacion completa de la peticion GET realizada y regresa el estado de la peticion en este caso 200 exitosa
 
 		2. -i
-		   ![](https://i.postimg.cc/hjh8QX0Z/indexlab511.jpg)
+		![](https://i.postimg.cc/hjh8QX0Z/indexlab511.jpg)
 		##### solo muestra la informacion completa del estado de la peticion en este caso 200
 
 
