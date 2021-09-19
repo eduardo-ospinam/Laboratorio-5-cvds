@@ -114,8 +114,9 @@
 ![](https://i.postimg.cc/SRgpwnw4/lab518.jpg)
 
 
+6. Busque el artefacto gson en el repositorio de maven y agregue la dependencia.:
 
-
+![](https://i.postimg.cc/13k2f0SX/lab520.jpg)
 
 
 ## Bibliografia: 
