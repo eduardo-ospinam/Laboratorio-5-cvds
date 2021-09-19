@@ -107,10 +107,14 @@
 
 4. Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’:
 
+![](https://i.postimg.cc/jdNzRyMZ/lab519.jpg)
+
+5. lee el parámetro ‘name’. Ingrese la misma URL, pero ahora agregando un parámetro GET :
+
 ![](https://i.postimg.cc/SRgpwnw4/lab518.jpg)
 
 
-5. 
+
 
 
 
