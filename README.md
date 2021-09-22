@@ -155,6 +155,38 @@
 ![](https://i.postimg.cc/0N6LSf2S/lab536.jpg)
 ![](https://i.postimg.cc/d39XFNnb/lab537.jpg)
 
+### Parte 4: 
+
+1.  agregarle las dependencias mas recientes de javax.javaee-api, com.sun.faces.jsf-api, com.sun.faces.jsf-impl, javax.servlet.jstl y Primefaces (en el archivo pom.xml).
+
+![](https://i.postimg.cc/TwpgSMd3/lab538.jpg)
+![](https://i.postimg.cc/7Yv0BWpq/lab539.jpg)
+
+
+2.  configure automáticamente el descriptor de despliegue de la aplicación (archivo web.xml):
+
+![](https://i.postimg.cc/qvwKvMg7/lab540.jpg)
+
+3.  crear un Backing-Bean de sesión:
+
+![](https://i.postimg.cc/mrrHzfFy/lab541.jpg)
+![](https://i.postimg.cc/bJ7DBZVm/lab542.jpg)
+
+4. Cree una página XHTML, de nombre calculadora.xhtml:
+
+![](https://i.postimg.cc/15cnv5GK/lab543.jpg)
+![](https://i.postimg.cc/2SkqMRTN/lab544.jpg)
+![](https://i.postimg.cc/xdqXjvWs/lab545.jpg)
+![](https://i.postimg.cc/qR3gykBy/lab546.jpg)
+
+5. pruebas:
+
+![](https://i.postimg.cc/kGPGykDZ/lab547.jpg)
+![](https://i.postimg.cc/d3R1N4y0/lab548.jpg)
+![](https://i.postimg.cc/7YVhgt4s/lab549.jpg)
+![](https://i.postimg.cc/Mp3GLcv1/lab550.jpg)
+![](https://i.postimg.cc/43K3RJ9q/lab551.jpg)
+
 
 
 
