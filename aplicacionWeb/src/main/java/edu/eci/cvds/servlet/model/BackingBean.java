@@ -3,21 +3,26 @@ package edu.eci.cvds.servlet.model;
 
 import javax.faces.bean.SessionScoped;
 import javax.faces.bean.ManagedBean;
-import java.util.ArrayList;
-import java.util.Random;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.Arrays;
+import java.util.Collections;
 
-@ManagedBean(name = "calculadoraBean")
-@ApplicationScoped
+
+@ManagedBean(name = "BackingBean")
+@SessionScoped 
  
 public class BackingBean {
 	
-	private ArrayList<Integer> listadoValores;
-	private double promedio;
-	private double desviacionEstandar;
-	private double varianza;
-	private double moda;
+	private List<Double> listadoValores = Collections.emptyList();
+	private double promedio = 0;
+	private double desviacionEstandar = 0;
+	private double varianza = 0;
+	private double moda = 0;
 	
-	public BackingBean() {}
+	public BackingBean() {
+		restart();
+	}
 	
     public void restart(){
     	listadoValores.clear();
@@ -27,10 +32,14 @@ public class BackingBean {
     	moda = 0;
     }
     
+    public List<Double> getListadoValores(){
+    	return this.listadoValores;
+    }
+    
     public double getPromedio(){
     	return this.promedio;
     }
-    
+     
     public double getDesviacionEstandar(){
     	return this.desviacionEstandar;
     }
@@ -39,11 +48,16 @@ public class BackingBean {
     	return this.varianza;
     }
     
-    public double getModa() {
-    	return this.moda;
+    public double getModa() {  
+    	return this.moda;           
     }
     
-    public void setPromedio(int promedio) {
+    public void setListadoValores(String listadoValores) {
+    	this.listadoValores = Arrays.asList(listadoValores.split(";")).stream().map( e -> Double.parseDouble(e)).collect(Collectors.toList());
+    	
+    }
+    
+    public void setPromedio(double promedio) {
     	this.promedio = promedio;
     }
     
@@ -59,8 +73,8 @@ public class BackingBean {
     	this.moda = moda;
     }
     
-    public void calculateMean(ArrayList<Integer> listadoValores) {
-    	double suma;
+    public void calculateMean() {
+    	double suma = 0;
     	for(int i= 0; i < listadoValores.size() ; i++) {
     		suma += listadoValores.get(i);
     	}
@@ -68,8 +82,8 @@ public class BackingBean {
     	setPromedio(suma);
     }
     
-    private double promedioalCuadrado(ArrayList<Integer> listadoValores) {
-    	double suma;
+    private double promedioalCuadrado() {
+    	double suma = 0;
     	for(int i= 0; i < listadoValores.size() ; i++) {
     		suma += Math.pow(listadoValores.get(i), 2); 
     	}
@@ -77,20 +91,20 @@ public class BackingBean {
     	return suma;
     }
     
-    public void calculateStandardDeviation(ArrayList<Integer> listadoValores) {
-    	calculateVariance(listadoValores);
+    public void calculateStandardDeviation() {
+    	calculateVariance();
     	setDesviacionEstandar(Math.sqrt(getVarianza()));
     }
     
-    public void calculateVariance(ArrayList<Integer> listadoValores) {
-    	calculateMean(listadoValores);
+    public void calculateVariance() {
+    	calculateMean();
     	double miu = Math.pow(getPromedio(), 2); 
-    	double promedioDos = promedioalCuadrado(listadoValores);
+    	double promedioDos = promedioalCuadrado();
     	setVarianza(promedioDos - miu);
     }
-    
-    public void calculateMode(ArrayList<Integer> listadoValores) {
-        int maxValue, maxCount;
+     
+    public void calculateMode() {
+        double maxValue = 0, maxCount = 0;
 
         for (int i = 0; i <listadoValores .size(); ++i) {
             int count = 0;
@@ -104,5 +118,13 @@ public class BackingBean {
         }
         
         setModa(maxValue);
+    }
+    
+    public void calculadora(String valores) {
+    	setListadoValores(valores);
+    	calculateMean();
+    	calculateVariance();
+    	calculateStandardDeviation();
+    	calculateMode();
     }
 }
