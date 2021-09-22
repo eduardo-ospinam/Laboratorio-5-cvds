@@ -179,7 +179,11 @@
 ![](https://i.postimg.cc/xdqXjvWs/lab545.jpg)
 ![](https://i.postimg.cc/qR3gykBy/lab546.jpg)
 
-5. pruebas:
+5. ¿Cuál es la diferencia entre los backing-beans de sesión y los de aplicación?
+	- session: crean una nueva instancia del bean en cada uno de los dispositivos que se conecte.
+	- aplicacion: crea un solo bean independiente por los dispositivos que se conecten al servicio.
+
+6. pruebas:
 
 ![](https://i.postimg.cc/kGPGykDZ/lab547.jpg)
 ![](https://i.postimg.cc/d3R1N4y0/lab548.jpg)
